@@ -9,21 +9,30 @@
 
 nombre = "Maykol"
 apellido = "Coronado"
-edad = 18
+edad = "18"
 
-# Formas de immprimir texto
+# Formas de imprimir texto
 
-# Forma 1: Clásica separando variables y texto por comas
-print ("Mi nombre es", nombre, "y mi apellido es", apellido, "y tengo", edad, "años")
+# Forma 1: # Apuntes de variables
+# Definicion de variables
 
-#Forma 2: Utilizando f-strings
-print(f"Mi nombre es {nombre} y mi apellido {apellido} y tengo {edad} años")
+nombre = "Maykol"
+apellido = "Coronado"
+edad = "18"
 
-# Forma 3: Concatenación transforma un valor a texto
-# La funcion str transforma 
-print("Mi nombres es " + nombre + " y mi apellido es " + apellido " y tengo " + str(edad) + " años ") 
+# Formas de imprimir texto
 
-# Utilizando el método imput y creando una variable llamada carrera
+# Forma 1: Utilizando el separador de la coma
+print("Mi nombre es", nombre , apellido , "y tengo" , edad , "años")
+
+# Forma 2: Utilizando f-strings
+print(f"Mi nombre es {nombre} {apellido} y tengo {edad} años")
+
+#Forma 3: Concatenación transforma un valor a texto
+print("Mi nombre es " + nombre + " " + apellido + " y tengo " + edad + " años")
+                
+
+# Utilizando el metodo input y utilizando una variable carrera
 carrera = input("¿Que carrera estudias?")
-print(f"yo estudio la carrera de: {carrera}")
-
+print(f"Yo estudio la carrera de:{carrera}")
+                
