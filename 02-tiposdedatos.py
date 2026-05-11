@@ -43,6 +43,7 @@ print(f"El valor de PI es aproximadamente {PI:.2f}")     # El formato :.2f limit
 
 # El método de redondeo 
 print("-------- METODO DE REDONDEO --------")
+
 print(round(area))
 print(f"El area del trínagulo es de {round(area)} cm")
 
