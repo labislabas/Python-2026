@@ -25,7 +25,7 @@ num_complejo = 2 +3j             # Primera forma de crear un número complejo
 otro_complejo = complex(4,2)     # Segunda forma de crear un número complejo
 
 
-# Opreación aritmetica basica (Area de un triangulo)
+# Opreación aritmetica basica (Area de un triangulo) 
 base = 8
 altura = 12.5
 
