@@ -7,6 +7,7 @@
 [corchetes]
 """
 
+
 # Formas de imprimir texto
 
 # Forma 1: # Apuntes de variables
