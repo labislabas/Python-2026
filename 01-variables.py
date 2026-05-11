@@ -7,10 +7,6 @@
 [corchetes]
 """
 
-nombre = "Maykol"
-apellido = "Coronado"
-edad = "18"
-
 # Formas de imprimir texto
 
 # Forma 1: # Apuntes de variables
