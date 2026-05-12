@@ -66,6 +66,7 @@ print(carrera[0:10])   # Imprime un rango de caracteres desde la posición 0 has
 
 # Metodo len() permite conocer la cantidad de caracteres que tiene una cadena de texto (ademas de coontar los espacios)
 
+
 # ARREGLOS (LISTAS)
 print("---------- ARREGLOS (LISTAS) ----------")
 colores = ["azul", "rojo", "verde", "amarillo"]  # Arreglo de stings
