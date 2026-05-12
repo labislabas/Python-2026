@@ -14,6 +14,7 @@ añonac = 2008
 
 print(f"Actualmente tengo {edad} años, por lo que naci en el {añonac}")
 
+
 # Números flotantes (Reales)    
 #(El decimal se utiliza punto y no coma)
 print("--------NÚMEROS FLOTANTES (REALES)--------")
