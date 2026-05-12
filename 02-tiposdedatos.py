@@ -50,6 +50,7 @@ print(f"El area del trínagulo es de {round(area)} cm")
 # Transformaciones de números
 print(float(edad))
 
+
 # CADENA DE TEXTOS (STRINGS)
 print("-------- CADENA DE TEXTOS (STRINGS)--------")
 
