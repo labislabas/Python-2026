@@ -67,6 +67,10 @@ print(carrera[0:10])   # Imprime un rango de caracteres desde la posición 0 has
 
 # Metodo len() permite conocer la cantidad de caracteres que tiene una cadena de texto (ademas de coontar los espacios)
 
+# APLICANDO METODO SPLIT  
+
+print(carrera.split())   # Se para la cadena en subcadenas
+print(institucion.split()) # Se para la cadena en subcadenas
 
 # ARREGLOS (LISTAS)
 print("---------- ARREGLOS (LISTAS) ----------")
@@ -76,3 +80,25 @@ numeros = [1,2,3,4,5]                            # Arreglo númerico
 print(colores[0])   # Imprime el primer elemento de la lista de colores (azul)  
 print(numeros[-1])  # Imprime el último elemento de la lista  de números (5)
 
+#BOOLEANOS (LOGICOS)
+print("-------- BOOLEANOS (LOGICOS) --------")
+
+luz_elecrica = True
+interruptor = False
+
+print(luz_elecrica)  
+print(interruptor)    
+
+
+# METODDO TYPE QUE PERMITE CONOCER EL TIPO DE DATO DE UNA VARIABLE
+print(f" El tipo de dato es: {type(num_complejo)}")
+
+print("-------- EVALUANDO DATOS BOOLENANOS --------")
+
+print(bool(1))
+print(bool(0))
+print(bool(""))
+print(bool("True"))
+
+
+     
