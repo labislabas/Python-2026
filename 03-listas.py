@@ -1,0 +1,17 @@
+# LISTAS
+
+#PRIMERA FORMA DE DECLARARCIÓN DE LISTA 
+lista1 = {"victor", 12 , True}
+
+#SEGUNDA FORMA DE DECLARACIÓN DE LISTA
+n = list(1,2,3,4,5)
+
+print(type(n))
+print(type(lista1))
+
+# METODOS PARA LAS LISTAS
+
+# 01 - CONT() CONTAR LA CANTIDAD DE CONCURRENCIAS DE UN ELEMENTO
+print(lista1.count("victor"))
+
+print(lista1[0])  #SE IMPRIME EL PRIMER ELEMNTO DE LA LISTA (VICTOR)
