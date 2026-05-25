@@ -57,6 +57,7 @@ print("-------- CADENA DE TEXTOS (STRINGS)--------")
 
 carrera = "Ingenieria civil en informática"
 institucion = "Universiadad de los lagos"
+descripcion = """Soy un estudiante de la carrera de ingenieria civil en informática, en la universidad de los lagos"""
  
 print(carrera[1])      # Imprime la posición del caracter en la cadena de texto (n), ya que la posición inicia en 0
 print(carrera[-1])     # Imprime el último caracter de la cadena de texto (a), utilizando un índice negativo
@@ -99,6 +100,11 @@ print(bool(1))
 print(bool(0))
 print(bool(""))
 print(bool("True"))
+print(bool(3000))
 
+# EVALUANDO NÚMEROS CON OPERADORES DE COMPARACIÓN
+print(100 > 50)   
+print(10 == 10)
+print(20 < 0)
 
      
