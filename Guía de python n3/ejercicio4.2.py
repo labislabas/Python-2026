@@ -14,3 +14,4 @@ valor_sensor_entero = int(valor_sensor)
 redondeado_valor_sensor = round(valor_sensor,2)
 
 print(f"Acontinuacion se mostraram los valores que ha entregado el sensor \n Valor original original(inicial): {valor_sensor} ")
+
