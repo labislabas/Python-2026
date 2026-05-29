@@ -31,3 +31,4 @@ print(f"El valor maximo de la RAM ingresado de manera individual es: {max_ram}")
 
 
 
+
