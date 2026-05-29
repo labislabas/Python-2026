@@ -15,4 +15,3 @@ impedancia_1 = 50 + 30j
 impedancia_2 = 40 - 10j
 
 impedancia_total = (50 + 30j) + ( 40 - 10j)
-
