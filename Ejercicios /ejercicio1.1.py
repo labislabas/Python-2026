@@ -9,17 +9,13 @@ Lunes       12.5
 Martes      14.2
 Miércoles   11.8
 """
-t = [12.5, 14.2, 11.8]
+temperaturas = [12.5, 14.2, 11.8]
 
-n1 = t[0]
-n2 = t[1]
-n3 = t[2]
+t1 = temperaturas[0]
+t2 = temperaturas[1]
+t3 = temperaturas[2]
 
-s = n1 + n2 + n3 
-p = s / 3 
+o1 = (t1 + t2 + t3) / 3    #OPERACION 1
+o2 = t2 - t3               #OPERACION 2
 
-print(f"El promedio de las temperaturas durante la semana es: {p:.3f}")
-
-n4 = n2 - n3
-
-print(f"La diferencia entre el dia con la temperatura mas alta y baja es: {n4:.1f}")
+print(f"El promedio de las temperaturas en la semana es de: {o1:.4} | La diferencia entre el dia con la temperatura mas alta y la mas baja respectivamente es de: {o2:.2}")
