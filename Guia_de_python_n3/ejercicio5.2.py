@@ -32,3 +32,4 @@ max_tiempo = max(tiempos_respuetas)  # MAS LENTO
 brecha_tiempo = (max_tiempo - min_tiempo)
 
 print(f"A continuacion la listas completa de los tiempo de respuesta y datos: \n Tiempos de respuestas: {tiempos_respuetas} \n Promedio: {promedio_tiempos} \n Brecha de tiempo: {brecha_tiempo}")
+
