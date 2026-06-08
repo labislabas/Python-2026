@@ -56,3 +56,6 @@ ramos_segundo_semestre = ['Ciudadanía', 'Álgebra', 'Introducción a la Física
 
 ramos.extend(ramos_segundo_semestre)
 print(ramos)
+
+# APLICANDO METODO INDEX
+print(ramos_segundo_semestre.index('Algebra'))  # POSICION 1 
