@@ -19,7 +19,7 @@ lista_asignaturas = ['Programacion', 'Quimica', 'Introduccion a la matematicas']
 print(f"LISTAS: {lista_asignaturas}")
 
 lista_asignaturas.pop()
-
+print(f"LISTA SIN ÚLTIMO ELEMENTO: {lista_asignaturas}")
 
 # ¿ QUE PASA SI QUIERO ELIMINAR EL ULTIMO ELEMENTO DE UNA TUPLA
 """estudiantes.pop()
