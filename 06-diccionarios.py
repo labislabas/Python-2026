@@ -94,3 +94,18 @@ print("\n === DICCIONARIO COPIA (MEDICO2) === \n ")
 print(medico2)
 medico2.clear()
 print(medico2)   # -> {}
+
+n = [1, 2, 3, 4, 5]
+n_str = list(map(str,n))
+print(f"Lista de numeros como strings: {', '.join(n_str)}")
+# REEMPLAZA UN BUCLE
+
+ramos = ["Progemacion", "Fisica", "Calculo", "Habilidades comunicativas"]
+long = list(filter(lambda x: len(x) > 7, ramos))
+print(long)
+
+a = [1 , 2 , 3, 4]
+b = ["A", "B", "C", "D"]
+
+comprimir = list(zip(a,b))
+print(comprimir)
