@@ -1,3 +1,8 @@
+from colorama import init, Fore
+init()   # INICIALIZANDO EL PAQUETE COLORAMA
+
+print(Fore.RED +'\n===UTILIZANDO IF Y ELSE===')
+
 alumno = {
     'nombre' : 'Benjamin',
     'edad' : '20'
@@ -23,6 +28,22 @@ while estado == True:       # WHILE -> MIENTRAS
         estado == False
     else:
         print("La opcion idicada no es correcta, recuerde escribir 'S' para si o 'N' para no")
+
+license = False
+edad = 19
+automovil = True
+
+if license and edad >= 18:
+    print(Fore.YELLOW + "Puede conducir un automovil ya que es mayor de edad y tiene licencia")
+elif automovil: 
+    print("no puede conducir un automovil porque no es mayor de edad y no tiene licencia")
+
+if license and edad >= 18:
+    print(Fore.CYAN +"Puede conducir ya que es mayor de edad, y tiene licencia")
+elif automovil:
+    print(Fore.BLUE + "Tengo auntomivil pero no tengo ni licensia ni la edad suficiente para conducir")
+else:
+    print(Fore.RED + "No puede conducir ya que no tiene ni la edad suficiente, ni licencia, ni automovil")
 
     
 
