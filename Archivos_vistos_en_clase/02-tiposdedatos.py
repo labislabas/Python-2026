@@ -18,8 +18,8 @@ print(f"Actualmente tengo {edad} años, por lo que naci en el {añonac}")
 # Números flotantes (Reales)    
 #(El decimal se utiliza punto y no coma)
 print("--------NÚMEROS FLOTANTES (REALES)--------")
-estatura = 184.5
-peso = 92.8
+estatura = 144.5
+peso = 42.8
 
 print(f"Yo mido {estatura} centimetros y peso {peso} kilogramos")
 
