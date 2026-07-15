@@ -1,6 +1,6 @@
 # A
 
-print("===DICCIONARIO ANTIGUO===")
+print("===DICCIONARIO ANTIGUO===\n")
 censo_2017 = {
     14 : {
         'Nombre Región' : 'Los Ríos',
@@ -19,51 +19,35 @@ print(censo_2017)
 
 # B
 
-densidad = 404.432 / 18.429
-densidad_2 = 166.533 / 1.382291
+densidad_de_14 = round(censo_2017[14]["Habitantes"] / censo_2017[14]["Superficie"], 1)
+densidad_de_12 = round(censo_2017[12]["Habitantes"] / censo_2017[12]["Superficie"], 1)
 
-censo_2017[14].update(densidad = '21.9')
-censo_2017[12].update(densidad = '120.4')
+censo_2017[14]["densidad"] = densidad_de_14
+censo_2017[12]["densidad"] = densidad_de_12
 
 # C
 
-censo_2017[14].update(Capital = 'Valdivia')
-censo_2017[14].update(Comunas = {
-    'Río bueno, La Unión, Paillaco'
-})
+censo_2017[14]["Capital"] = "Valdivia"
+censo_2017[14]["Comunas"] = ["Rio Bueno", "La Union", "Paillaco"]
+censo_2017[14]["Coordenadas_simuladas"] = (-39.8, -73.2)
+censo_2017[14]["Zonas_exclusivas"] = {"Urbana", "Rural", "Fronteriza"}
 
-# SE INTENTO AGREGAR UNA TUPLA Y SET
-
-#censo_2017[14].update(tuple(latitud_longitud = 45.6_79))
-#censo_2017[14].update(set(Zonas_esclusivas = 'Urbano, Peligroso, Inseguro'))
-
-censo_2017[12].update(Capital = 'Punta arenas')
-censo_2017[12].update(Comunas = {
-    'Cabo de hornos, Puerto Williams, Porvenir'
-})
-
-print(censo_2017)
-
-# SE INTENTO AGREGAR UNA TUPLA Y SET
-
-#censo_2017[12].update(tuple(latitud_longitud = 25.6_29))
-#censo_2017[12].update(set(Zonas_esclusivas = 'Rural, Seguro, Frio'))
-
-# D
-
-censo_2017[12]
+censo_2017[12]["Capital"] = "Punta Arenas"
+censo_2017[12]["Comunas"] = ["Cabo de Hornos", "Puerto Williams", "Porvenir"]
+censo_2017[12]["Coordenadas_simuladas"] = (-59.9, -90.2)
+censo_2017[12]["Zonas_exclusivas"] = {"Urbana", "Rural", "Fronteriza"}
 
 # E
 
-solicitud = int(input("Ingrese el ID de la comuna a buscar (14 -> Los ríos) (12 -> Magallanes): "))
+solicitud = int(input("\nIngrese el ID de la comuna a buscar (14 -> Los ríos) (12 -> Magallanes): \n"))
 
 if solicitud == 14:
-    print(censo_2017)
+    print("Las comunas de Los Ríos son:", censo_2017[14]['Comunas'])
 elif solicitud == 12:
-    print("Las comunas de Magallanes son: Cabo de hornos, Puerto Williams, Porvenir")
+    print("Las comunas de Magallanes son:", censo_2017[12]['Comunas'])
 else:
     print(f"ID incorrecto, {solicitud}")
 
 # F
-print("===Diccionario nuevo===")
-print(tuple(censo_2017))
+print("\n===Diccionario nuevo===\n")
+print(tuple(censo_2017.items()))

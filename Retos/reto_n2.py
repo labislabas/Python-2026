@@ -13,4 +13,8 @@ glosario = dict(
 
 buscar = str(input("Ingrese un concepto a buscar (hashable, inmutable, interpretado, iterable: "))
 
-print(type(conceptos_repetidos))
+definicion = glosario[buscar]
+print(f"{buscar}: {definicion}")
+ 
+registro_busqueda = (buscar, definicion)
+print(registro_busqueda)
